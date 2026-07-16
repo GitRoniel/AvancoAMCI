@@ -1,0 +1,620 @@
+{
+ "floors": [
+  {
+   "k": "6",
+   "l": "Pav 6"
+  },
+  {
+   "k": "5",
+   "l": "Pav 5"
+  },
+  {
+   "k": "4",
+   "l": "Pav 4"
+  },
+  {
+   "k": "3",
+   "l": "Pav 3"
+  },
+  {
+   "k": "2",
+   "l": "Pav 2"
+  },
+  {
+   "k": "1",
+   "l": "Pav 1"
+  },
+  {
+   "k": "T",
+   "l": "Térreo"
+  }
+ ],
+ "apts": [
+  "01",
+  "02",
+  "03",
+  "04",
+  "05",
+  "06",
+  "07",
+  "08"
+ ],
+ "hotspots": {
+  "H": {
+   "x": 0.97,
+   "y": 4.23,
+   "w": 19.83,
+   "h": 24.91
+  },
+  "F": {
+   "x": 25.44,
+   "y": 4.23,
+   "w": 19.83,
+   "h": 24.91
+  },
+  "D": {
+   "x": 54.64,
+   "y": 4.23,
+   "w": 19.83,
+   "h": 24.91
+  },
+  "B": {
+   "x": 79.11,
+   "y": 4.23,
+   "w": 19.83,
+   "h": 24.91
+  },
+  "G": {
+   "x": 0.97,
+   "y": 70.71,
+   "w": 19.83,
+   "h": 24.96
+  },
+  "E": {
+   "x": 25.44,
+   "y": 70.71,
+   "w": 19.83,
+   "h": 24.96
+  },
+  "C": {
+   "x": 54.64,
+   "y": 70.71,
+   "w": 19.83,
+   "h": 24.96
+  },
+  "A": {
+   "x": 79.11,
+   "y": 70.71,
+   "w": 19.83,
+   "h": 24.96
+  }
+ },
+ "disciplinas": [
+  {
+   "n": "Estrutura",
+   "c": "--est",
+   "d": "Fundação e estrutura"
+  },
+  {
+   "n": "Instalação",
+   "c": "--ins",
+   "d": "Hidráulica, elétrica, gás"
+  },
+  {
+   "n": "Acabamento",
+   "c": "--acb",
+   "d": "Revestimentos e pintura"
+  },
+  {
+   "n": "Infraestrutura",
+   "c": "--inf",
+   "d": "Caixas e redes externas"
+  }
+ ],
+ "servicos": [
+  {
+   "item": 1,
+   "descricao": "FUNDAÇÃO PROFUNDA - BLOCO",
+   "und": "BL",
+   "equipe": "Estrutura"
+  },
+  {
+   "item": 2,
+   "descricao": "RADIER - CONCRETAGEM",
+   "und": "BL",
+   "equipe": "Estrutura"
+  },
+  {
+   "item": 3,
+   "descricao": "INSTALAÇÕES - RADIER",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 4,
+   "descricao": "PAREDE DE CONCRETO",
+   "und": "Apt.",
+   "equipe": "Estrutura"
+  },
+  {
+   "item": 5,
+   "descricao": "DISTRIBUIÇÃO DE ÁGUA - PAREDE DE CONCRETO",
+   "und": "Apt.",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 6,
+   "descricao": "INSTALAÇÕES ELÉTRICAS E TELECOMUNICAÇÕES - PAREDE DE CONCRETO",
+   "und": "Apt.",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 7,
+   "descricao": "PAREDE DE CONCRETO - PLATIBANDA",
+   "und": "BL",
+   "equipe": "Estrutura"
+  },
+  {
+   "item": 8,
+   "descricao": "COBOGÓ - COBERTURA",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 9,
+   "descricao": "ESTRUTURA TELHADO - BLOCO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 10,
+   "descricao": "COBERTURA DE TELHADO - BLOCO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 11,
+   "descricao": "CALHAS, RUFOS E PINGADEIRA - BLOCO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 12,
+   "descricao": "CORRIMÃO - BLOCO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 13,
+   "descricao": "GUARDA CORPO - BLOCO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 14,
+   "descricao": "ESTUQUE EXTERNO - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 15,
+   "descricao": "ESTUQUE INTERNO - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 16,
+   "descricao": "REGULARIZAÇAO DE FACHADA",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 17,
+   "descricao": "IMPERMEABILIZAÇÃO DE BARRADO - BLOCO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 18,
+   "descricao": "PINTURA DE FACHADA - TEXTURA",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 19,
+   "descricao": "REGULARIZAÇÃO DE JANELA - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 20,
+   "descricao": "PEITORIL - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 21,
+   "descricao": "REGULARIZAÇÃO DE PISO - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 22,
+   "descricao": "REGULARIZAÇÃO DE PAREDE - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 23,
+   "descricao": "BASE DE SHAFT - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 24,
+   "descricao": "IMPERMEABILIZAÇÃO INTERNA - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 25,
+   "descricao": "DISTRIBUIÇÃO DE ÁGUA - APTO",
+   "und": "Apt.",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 26,
+   "descricao": "TESTES HIDRÁULICOS",
+   "und": "Apt.",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 27,
+   "descricao": "MURO GARDEN TEXTURA",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 28,
+   "descricao": "DISTRIBUIÇÃO DE ÁGUA - HALL",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 29,
+   "descricao": "CAVALETE DO HIDRÔMETRO",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 30,
+   "descricao": "HIDRÔMETRO",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 31,
+   "descricao": "PRUMADA DE ESGOTO - APTO",
+   "und": "Apt.",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 32,
+   "descricao": "DISTRIBUIÇÃO DE ESGOTO E EXAUSTÃO - APTO",
+   "und": "Apt.",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 33,
+   "descricao": "DISTRIBUIÇÃO DE INCÊNDIO",
+   "und": "Pav",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 34,
+   "descricao": "PRUMADA DE ÁGUAS PLUVIAIS - BLOCO",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 35,
+   "descricao": "CAIXAS AO REDOR DO BLOCO - BLOCO",
+   "und": "BL",
+   "equipe": "Infraestrutura"
+  },
+  {
+   "item": 36,
+   "descricao": "ELEVADOR - REGULARIZAÇÃO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 37,
+   "descricao": "ELEVADOR - ACABAMENTO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 38,
+   "descricao": "ELEVADOR - INSTALAÇÃO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 39,
+   "descricao": "FIAÇÃO - APTO",
+   "und": "Apt.",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 40,
+   "descricao": "FIAÇÃO - HALL",
+   "und": "Pav",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 41,
+   "descricao": "FIAÇÃO - QM AO QDC",
+   "und": "Apt.",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 42,
+   "descricao": "QDC - APTO",
+   "und": "Apt.",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 43,
+   "descricao": "QUADRO MEDIDOR - BLOCO MONTAGEM",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 44,
+   "descricao": "QUADRO MEDIDOR - BLOCO FECHAMENTO INSTALAÇÕES",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 45,
+   "descricao": "GÁS - APTO",
+   "und": "Apt.",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 46,
+   "descricao": "GÁS - PRUMADA",
+   "und": "Apt.",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 47,
+   "descricao": "ESQUADRIAS METÁLICAS - JANELAS",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 48,
+   "descricao": "ESTRUTURA E FECHAMENTO DE SHAFT - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 49,
+   "descricao": "FORRO DE GESSO - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 50,
+   "descricao": "ESTRUTURA E FECHAMENTO DE SHAFT - HALL",
+   "und": "Pav",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 51,
+   "descricao": "ESTRUTURA E FECHAMENTO DE FORRO - HALL",
+   "und": "Pav",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 52,
+   "descricao": "REVESTIMENTO CERÂMICO - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 53,
+   "descricao": "AZULEJO - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 54,
+   "descricao": "REJUNTE - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 55,
+   "descricao": "FILETES E SOLEIRAS - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 56,
+   "descricao": "CERÂMICA HALL",
+   "und": "Pav",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 57,
+   "descricao": "REJUNTE HALL",
+   "und": "Pav",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 58,
+   "descricao": "BANCADA E TANQUE - APTO",
+   "und": "Apt.",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 59,
+   "descricao": "LAVATÓRIO E BACIA SANITÁRIA - APTO",
+   "und": "Apt.",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 60,
+   "descricao": "PINTURA - REGULARIZAÇÃO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 61,
+   "descricao": "PINTURA - MASSA",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 62,
+   "descricao": "PINTURA 1 DEMÃO - SKIN COAT",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 63,
+   "descricao": "PINTURA HALL - REGULARIZAÇÃO",
+   "und": "Pav",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 64,
+   "descricao": "PINTURA HALL - MASSA",
+   "und": "Pav",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 65,
+   "descricao": "PINTURA HALL - SKIN COAT",
+   "und": "Pav",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 66,
+   "descricao": "LIMPEZA GROSSA - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 67,
+   "descricao": "LIMPEZA GROSSA - HALL",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 68,
+   "descricao": "PISO LAMINADO - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 69,
+   "descricao": "RODAPÉ PISO LAMINADO - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 70,
+   "descricao": "PORTAS DE MADEIRA - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 71,
+   "descricao": "PORTA CORTA FOGO - BLOCO",
+   "und": "Pav",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 72,
+   "descricao": "ACABAMENTO ELÉTRICO, LUMINÁRIAS E TELECOMUNICAÇÕES - APTO",
+   "und": "Apt.",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 73,
+   "descricao": "ACABAMENTO ELÉTRICO - HALL",
+   "und": "Pav",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 74,
+   "descricao": "INTERFONE - HALL",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 75,
+   "descricao": "LUMINÁRIA DE EMERGÊNCIA - BLOCO",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 76,
+   "descricao": "LUMINÁRIAS - HALL",
+   "und": "Pav",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 77,
+   "descricao": "METAIS - APTO",
+   "und": "Apt.",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 78,
+   "descricao": "PINTURA  2 DEMÃO - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 79,
+   "descricao": "LIMPEZA FINA - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 80,
+   "descricao": "CHECK LIST - APTO",
+   "und": "Apt.",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 81,
+   "descricao": "PLACAS DE SINALIZAÇÃO - BLOCO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 82,
+   "descricao": "EXTINTOR - BLOCO",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 83,
+   "descricao": "PINTURA DO PISO - ESCADA HALL",
+   "und": "Pav",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 84,
+   "descricao": "PISO TÁTIL - HALL",
+   "und": "Pav",
+   "equipe": "Acabamento"
+  }
+ ]
+}

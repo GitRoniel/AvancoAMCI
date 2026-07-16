@@ -1,0 +1,949 @@
+{
+ "disciplinas": [
+  {
+   "n": "Estrutura",
+   "c": "--est",
+   "d": "Fundação e estrutura"
+  },
+  {
+   "n": "Instalação",
+   "c": "--ins",
+   "d": "Hidráulica, elétrica, gás"
+  },
+  {
+   "n": "Acabamento",
+   "c": "--acb",
+   "d": "Revestimentos e pintura"
+  },
+  {
+   "n": "Infraestrutura",
+   "c": "--inf",
+   "d": "Caixas e redes externas"
+  }
+ ],
+ "servicos": [
+  {
+   "item": 1,
+   "descricao": "FUNDAÇÃO PROFUNDA - BLOCO",
+   "und": "BL",
+   "equipe": "Estrutura"
+  },
+  {
+   "item": 2,
+   "descricao": "RADIER - CONCRETAGEM",
+   "und": "BL",
+   "equipe": "Estrutura"
+  },
+  {
+   "item": 3,
+   "descricao": "INSTALAÇÕES - RADIER",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 4,
+   "descricao": "PAREDE DE CONCRETO",
+   "und": "Casa",
+   "equipe": "Estrutura"
+  },
+  {
+   "item": 5,
+   "descricao": "DISTRIBUIÇÃO DE ÁGUA - PAREDE DE CONCRETO",
+   "und": "Casa",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 6,
+   "descricao": "INSTALAÇÕES ELÉTRICAS E TELECOMUNICAÇÕES - PAREDE DE CONCRETO",
+   "und": "Casa",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 7,
+   "descricao": "PAREDE DE CONCRETO - PLATIBANDA",
+   "und": "BL",
+   "equipe": "Estrutura"
+  },
+  {
+   "item": 8,
+   "descricao": "COBOGÓ - COBERTURA",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 9,
+   "descricao": "ESTRUTURA TELHADO - BLOCO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 10,
+   "descricao": "COBERTURA DE TELHADO - BLOCO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 11,
+   "descricao": "CALHAS, RUFOS E PINGADEIRA - BLOCO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 12,
+   "descricao": "CORRIMÃO - BLOCO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 13,
+   "descricao": "GUARDA CORPO - BLOCO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 14,
+   "descricao": "ESTUQUE EXTERNO - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 15,
+   "descricao": "ESTUQUE INTERNO - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 16,
+   "descricao": "REGULARIZAÇAO DE FACHADA",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 17,
+   "descricao": "IMPERMEABILIZAÇÃO DE BARRADO - BLOCO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 18,
+   "descricao": "PINTURA DE FACHADA - TEXTURA",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 19,
+   "descricao": "REGULARIZAÇÃO DE JANELA - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 20,
+   "descricao": "PEITORIL - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 21,
+   "descricao": "REGULARIZAÇÃO DE PISO - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 22,
+   "descricao": "REGULARIZAÇÃO DE PAREDE - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 23,
+   "descricao": "BASE DE SHAFT - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 24,
+   "descricao": "IMPERMEABILIZAÇÃO INTERNA - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 25,
+   "descricao": "DISTRIBUIÇÃO DE ÁGUA - APTO",
+   "und": "Casa",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 26,
+   "descricao": "TESTES HIDRÁULICOS",
+   "und": "Casa",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 27,
+   "descricao": "MURO GARDEN TEXTURA",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 28,
+   "descricao": "DISTRIBUIÇÃO DE ÁGUA - HALL",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 29,
+   "descricao": "CAVALETE DO HIDRÔMETRO",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 30,
+   "descricao": "HIDRÔMETRO",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 31,
+   "descricao": "PRUMADA DE ESGOTO - APTO",
+   "und": "Casa",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 32,
+   "descricao": "DISTRIBUIÇÃO DE ESGOTO E EXAUSTÃO - APTO",
+   "und": "Casa",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 33,
+   "descricao": "DISTRIBUIÇÃO DE INCÊNDIO",
+   "und": "Casa",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 34,
+   "descricao": "PRUMADA DE ÁGUAS PLUVIAIS - BLOCO",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 35,
+   "descricao": "CAIXAS AO REDOR DO BLOCO - BLOCO",
+   "und": "BL",
+   "equipe": "Infraestrutura"
+  },
+  {
+   "item": 36,
+   "descricao": "ELEVADOR - REGULARIZAÇÃO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 37,
+   "descricao": "ELEVADOR - ACABAMENTO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 38,
+   "descricao": "ELEVADOR - INSTALAÇÃO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 39,
+   "descricao": "FIAÇÃO - APTO",
+   "und": "Casa",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 40,
+   "descricao": "FIAÇÃO - HALL",
+   "und": "Casa",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 41,
+   "descricao": "FIAÇÃO - QM AO QDC",
+   "und": "Casa",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 42,
+   "descricao": "QDC - APTO",
+   "und": "Casa",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 43,
+   "descricao": "QUADRO MEDIDOR - BLOCO MONTAGEM",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 44,
+   "descricao": "QUADRO MEDIDOR - BLOCO FECHAMENTO INSTALAÇÕES",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 45,
+   "descricao": "GÁS - APTO",
+   "und": "Casa",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 46,
+   "descricao": "GÁS - PRUMADA",
+   "und": "Casa",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 47,
+   "descricao": "ESQUADRIAS METÁLICAS - JANELAS",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 48,
+   "descricao": "ESTRUTURA E FECHAMENTO DE SHAFT - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 49,
+   "descricao": "FORRO DE GESSO - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 50,
+   "descricao": "ESTRUTURA E FECHAMENTO DE SHAFT - HALL",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 51,
+   "descricao": "ESTRUTURA E FECHAMENTO DE FORRO - HALL",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 52,
+   "descricao": "REVESTIMENTO CERÂMICO - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 53,
+   "descricao": "AZULEJO - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 54,
+   "descricao": "REJUNTE - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 55,
+   "descricao": "FILETES E SOLEIRAS - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 56,
+   "descricao": "CERÂMICA HALL",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 57,
+   "descricao": "REJUNTE HALL",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 58,
+   "descricao": "BANCADA E TANQUE - APTO",
+   "und": "Casa",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 59,
+   "descricao": "LAVATÓRIO E BACIA SANITÁRIA - APTO",
+   "und": "Casa",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 60,
+   "descricao": "PINTURA - REGULARIZAÇÃO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 61,
+   "descricao": "PINTURA - MASSA",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 62,
+   "descricao": "PINTURA 1 DEMÃO - SKIN COAT",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 63,
+   "descricao": "PINTURA HALL - REGULARIZAÇÃO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 64,
+   "descricao": "PINTURA HALL - MASSA",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 65,
+   "descricao": "PINTURA HALL - SKIN COAT",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 66,
+   "descricao": "LIMPEZA GROSSA - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 67,
+   "descricao": "LIMPEZA GROSSA - HALL",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 68,
+   "descricao": "PISO LAMINADO - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 69,
+   "descricao": "RODAPÉ PISO LAMINADO - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 70,
+   "descricao": "PORTAS DE MADEIRA - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 71,
+   "descricao": "PORTA CORTA FOGO - BLOCO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 72,
+   "descricao": "ACABAMENTO ELÉTRICO, LUMINÁRIAS E TELECOMUNICAÇÕES - APTO",
+   "und": "Casa",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 73,
+   "descricao": "ACABAMENTO ELÉTRICO - HALL",
+   "und": "Casa",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 74,
+   "descricao": "INTERFONE - HALL",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 75,
+   "descricao": "LUMINÁRIA DE EMERGÊNCIA - BLOCO",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 76,
+   "descricao": "LUMINÁRIAS - HALL",
+   "und": "Casa",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 77,
+   "descricao": "METAIS - APTO",
+   "und": "Casa",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 78,
+   "descricao": "PINTURA  2 DEMÃO - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 79,
+   "descricao": "LIMPEZA FINA - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 80,
+   "descricao": "CHECK LIST - APTO",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 81,
+   "descricao": "PLACAS DE SINALIZAÇÃO - BLOCO",
+   "und": "BL",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 82,
+   "descricao": "EXTINTOR - BLOCO",
+   "und": "BL",
+   "equipe": "Instalação"
+  },
+  {
+   "item": 83,
+   "descricao": "PINTURA DO PISO - ESCADA HALL",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  },
+  {
+   "item": 84,
+   "descricao": "PISO TÁTIL - HALL",
+   "und": "Casa",
+   "equipe": "Acabamento"
+  }
+ ],
+ "groups": [
+  {
+   "key": "A",
+   "label": "Conjunto A",
+   "casas": [
+    "02",
+    "03"
+   ]
+  },
+  {
+   "key": "B",
+   "label": "Conjunto B",
+   "casas": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42"
+   ]
+  },
+  {
+   "key": "C",
+   "label": "Conjunto C",
+   "casas": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05"
+   ]
+  },
+  {
+   "key": "D",
+   "label": "Conjunto D",
+   "casas": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10"
+   ]
+  },
+  {
+   "key": "E",
+   "label": "Conjunto E",
+   "casas": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10"
+   ]
+  },
+  {
+   "key": "F",
+   "label": "Conjunto F",
+   "casas": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10"
+   ]
+  },
+  {
+   "key": "G",
+   "label": "Conjunto G",
+   "casas": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10"
+   ]
+  },
+  {
+   "key": "H",
+   "label": "Conjunto H",
+   "casas": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53"
+   ]
+  },
+  {
+   "key": "I",
+   "label": "Conjunto I",
+   "casas": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49"
+   ]
+  },
+  {
+   "key": "J",
+   "label": "Conjunto J",
+   "casas": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07"
+   ]
+  },
+  {
+   "key": "K",
+   "label": "Conjunto K",
+   "casas": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08"
+   ]
+  },
+  {
+   "key": "L",
+   "label": "Conjunto L",
+   "casas": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47"
+   ]
+  },
+  {
+   "key": "M",
+   "label": "Conjunto M",
+   "casas": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10"
+   ]
+  },
+  {
+   "key": "N",
+   "label": "Conjunto N",
+   "casas": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10"
+   ]
+  },
+  {
+   "key": "O",
+   "label": "Conjunto O",
+   "casas": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10"
+   ]
+  },
+  {
+   "key": "P",
+   "label": "Conjunto P",
+   "casas": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10"
+   ]
+  },
+  {
+   "key": "Q",
+   "label": "Conjunto Q",
+   "casas": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10"
+   ]
+  },
+  {
+   "key": "R",
+   "label": "Conjunto R",
+   "casas": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06"
+   ]
+  }
+ ]
+}

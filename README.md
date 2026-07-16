@@ -60,6 +60,19 @@ apps-script/
   Code.gs         Web App: snapshot, updateServico (append-only), snapshotSemanal
 ```
 
+
+
+## Mapa interativo (drill-down por toque)
+
+O mapa é o centro do sistema, no modelo planta → bloco → disciplina → serviço → unidades:
+
+1. **Planta** — no M01, a imagem real da planta com *hotspots* clicáveis sobre cada bloco (com % e barra ao vivo). No C03, um esquema de conjuntos clicáveis (mesmo fluxo).
+2. **Bloco/Conjunto** — as 4 disciplinas (Estrutura, Instalação, Acabamento, Infraestrutura) com o avanço de cada uma.
+3. **Disciplina** — a lista de serviços daquela disciplina.
+4. **Serviço** — uma grade de unidades (pavimento × apto no M01, casas no C03). **Toque em cada célula** para alternar não iniciado → em execução → concluído; o percentual sobe automaticamente por serviço, disciplina, bloco e planta.
+
+O estado é salvo localmente (localStorage / Capacitor Preferences) e, com o backend configurado, sincronizado. Código em `src/features/map/` — dados fiéis do M01 em `m01Plan.json`, C03 em `c03Plan.json`, imagem em `public/plans/m01.jpg`.
+
 ## Backend Google Sheets (opcional, para dados ao vivo)
 
 1. Crie uma planilha no Google Sheets com as abas:

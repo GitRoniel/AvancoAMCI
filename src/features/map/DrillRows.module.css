@@ -1,0 +1,23 @@
+.list { display: flex; flex-direction: column; gap: 7px; }
+.row, .svcRow {
+  display: flex; align-items: center; gap: 12px; width: 100%; text-align: left;
+  background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: var(--r-md);
+  padding: 12px 14px; backdrop-filter: var(--blur-sm); transition: transform 0.13s var(--ease-out), border-color 0.2s;
+  color: var(--text-secondary); box-shadow: var(--shadow-sm);
+}
+.row { border-left: 3px solid var(--acc); }
+.row:hover, .svcRow:hover { transform: translateX(3px); border-color: var(--glass-border-strong); }
+.ic { width: 30px; height: 30px; border-radius: 8px; background: var(--acc); color: #fff; display: grid; place-items: center; font-weight: 800; font-size: 14px; flex: none; }
+.mid { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.name { font-size: 14px; font-weight: 600; color: var(--text-primary); }
+.sub { font-size: 11.5px; color: var(--text-tertiary); }
+.right { display: flex; flex-direction: column; align-items: flex-end; gap: 5px; flex: none; }
+.pct { font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--text-primary); }
+.bar { width: 72px; height: 4px; border-radius: 2px; background: var(--surface-2); overflow: hidden; }
+.bar span { display: block; height: 100%; background: var(--acc); border-radius: 2px; transition: width 0.5s var(--ease-out); }
+.svcNum { width: 24px; text-align: right; font-size: 11px; font-weight: 700; color: var(--text-tertiary); flex: none; font-family: var(--font-mono); }
+.svcName { font-size: 13px; font-weight: 500; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.svcBar { display: block; height: 3px; border-radius: 2px; background: var(--surface-2); overflow: hidden; margin-top: 2px; }
+.svcBar span { display: block; height: 100%; border-radius: 2px; transition: width 0.5s var(--ease-out); }
+.svcRight { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; flex: none; }
+.und { font-size: 10px; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.04em; }

@@ -1,0 +1,8 @@
+.wrap { display: flex; flex-direction: column; gap: 14px; }
+.head { display: flex; justify-content: space-between; align-items: flex-start; gap: 14px; }
+.htext { min-width: 0; }
+.kw { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-tertiary); }
+.head h2 { font-size: clamp(16px, 2.4vw, 21px); font-weight: 700; line-height: 1.15; margin-top: 4px; }
+.pctBox { text-align: right; flex: none; }
+.pctBox .v { font-size: 30px; font-weight: 800; line-height: 1; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.pctBox .l { font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-tertiary); }
