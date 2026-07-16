@@ -1,0 +1,8 @@
+.wrap { display: flex; flex-direction: column; align-items: center; gap: 14px; padding: var(--sp-12); }
+.ring {
+  width: 34px; height: 34px; border-radius: 50%;
+  border: 3px solid var(--surface-3); border-top-color: var(--accent);
+  animation: spin 0.8s linear infinite;
+}
+.label { color: var(--text-secondary); font-size: 13px; }
+@keyframes spin { to { transform: rotate(360deg); } }

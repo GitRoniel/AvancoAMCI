@@ -1,0 +1,8 @@
+.list { display: flex; flex-direction: column; gap: 14px; max-width: 640px; }
+.section { display: flex; flex-direction: column; gap: 12px; }
+.section h3 { font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+.rowKV { display: flex; justify-content: space-between; align-items: center; gap: 16px; font-size: 13.5px; }
+.rowKV span { color: var(--text-secondary); }
+.mono { font-family: var(--font-mono); font-size: 12px; word-break: break-all; text-align: right; }
+.hint { font-size: 12.5px; color: var(--text-tertiary); }
+.hint code { font-family: var(--font-mono); background: var(--surface-2); padding: 1px 5px; border-radius: 5px; }

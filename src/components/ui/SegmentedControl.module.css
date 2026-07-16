@@ -1,0 +1,10 @@
+.wrap {
+  display: inline-flex; gap: 2px; padding: 3px;
+  background: var(--surface-1); border: 1px solid var(--glass-border);
+  border-radius: var(--r-full); backdrop-filter: var(--blur-sm);
+}
+.seg {
+  padding: 6px 14px; border-radius: var(--r-full); font-size: 13px; font-weight: 500;
+  color: var(--text-secondary); transition: color 0.2s;
+}
+.active { color: var(--text-primary); background: var(--surface-3); box-shadow: var(--shadow-sm); }

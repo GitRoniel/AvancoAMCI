@@ -1,0 +1,13 @@
+.card { display: flex; flex-direction: column; gap: 6px; min-height: 120px; }
+.top { display: flex; justify-content: space-between; align-items: center; }
+.label { font-size: 12.5px; color: var(--text-secondary); font-weight: 500; }
+.value {
+  font-size: 34px; font-weight: 600; letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  background: linear-gradient(180deg, #fff, color-mix(in srgb, var(--accent) 60%, #fff));
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+}
+.hint { font-size: 11.5px; color: var(--text-tertiary); }
+.up { font-size: 11px; color: var(--status-concluido); font-weight: 600; }
+.down { font-size: 11px; color: var(--status-atrasado); font-weight: 600; }
+.glow { position: absolute; width: 120px; height: 120px; border-radius: 50%; filter: blur(60px); opacity: 0.16; bottom: -40px; right: -30px; }

@@ -1,0 +1,3 @@
+.pill { font-size: 11px; font-weight: 600; padding: 4px 10px; border-radius: var(--r-full); }
+.off { color: var(--status-atrasado); background: color-mix(in srgb, var(--status-atrasado) 16%, transparent); }
+.sync { color: var(--status-atencao); background: color-mix(in srgb, var(--status-atencao) 16%, transparent); }

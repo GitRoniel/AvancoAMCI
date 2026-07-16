@@ -1,0 +1,6 @@
+.bar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.bar select {
+  background: var(--surface-1); border: 1px solid var(--glass-border); color: var(--text-primary);
+  padding: 8px 14px; border-radius: var(--r-full); font-size: 13px; outline: none; cursor: pointer;
+}
+.reset { color: var(--accent); font-size: 13px; font-weight: 500; padding: 8px 12px; }

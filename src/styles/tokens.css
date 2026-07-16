@@ -1,0 +1,75 @@
+/* ============================================================
+   Design Tokens — inspired by iOS 26 / Linear / Raycast / Arc
+   ============================================================ */
+:root {
+  /* Surface & background (dark, depth-layered) */
+  --bg-base: #0a0a0f;
+  --bg-elevated: #12131a;
+  --bg-sunken: #07070b;
+  --surface-1: rgba(255, 255, 255, 0.04);
+  --surface-2: rgba(255, 255, 255, 0.06);
+  --surface-3: rgba(255, 255, 255, 0.09);
+
+  /* Liquid glass */
+  --glass-bg: rgba(20, 21, 28, 0.55);
+  --glass-bg-strong: rgba(20, 21, 28, 0.78);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-border-strong: rgba(255, 255, 255, 0.14);
+  --blur-sm: blur(12px);
+  --blur-md: blur(22px);
+  --blur-lg: blur(40px);
+
+  /* Text */
+  --text-primary: #f4f5f7;
+  --text-secondary: rgba(244, 245, 247, 0.66);
+  --text-tertiary: rgba(244, 245, 247, 0.40);
+
+  /* Brand */
+  --accent: #4f8cff;
+  --accent-soft: rgba(79, 140, 255, 0.16);
+  --accent-grad: linear-gradient(135deg, #5b9bff 0%, #7c5cff 100%);
+
+  /* Status colors (spec) */
+  --status-nao-iniciado: #8a8f9c; /* Cinza  */
+  --status-programado:   #4f8cff; /* Azul   */
+  --status-execucao:     #f5c542; /* Amarelo*/
+  --status-concluido:    #34c759; /* Verde  */
+  --status-atencao:      #ff9f0a; /* Laranja*/
+  --status-atrasado:     #ff453a; /* Vermelho */
+  --status-pendencia:    #af52de; /* Roxo   */
+
+  /* Radius */
+  --r-xs: 8px;
+  --r-sm: 12px;
+  --r-md: 18px;
+  --r-lg: 24px;
+  --r-xl: 32px;
+  --r-full: 999px;
+
+  /* Shadows (soft depth) */
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.35);
+  --shadow-md: 0 8px 30px rgba(0,0,0,0.45);
+  --shadow-lg: 0 20px 60px rgba(0,0,0,0.55);
+  --shadow-glow: 0 0 0 1px var(--glass-border), 0 12px 40px rgba(0,0,0,0.5);
+
+  /* Spacing */
+  --sp-1: 4px;  --sp-2: 8px;  --sp-3: 12px; --sp-4: 16px;
+  --sp-5: 20px; --sp-6: 24px; --sp-8: 32px; --sp-10: 40px; --sp-12: 48px;
+
+  /* Typography */
+  --font: 'Geist', -apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, 'SF Mono', monospace;
+
+  /* Safe areas (iPhone notch / home indicator) */
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+
+  /* Layout */
+  --navbar-h: 56px;
+  --bottomnav-h: 64px;
+  --sidebar-w: 248px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
