@@ -92,5 +92,5 @@ Laranja = atenção · Vermelho = atrasado · Roxo = pendências.
 ## Como o seed foi gerado
 
 `scripts/gen_seed.py` lê `Avanço Fisico - C03.xlsx` e `Avanço Fisico - M01.xlsx`, extrai a lista
-real de serviços, conjuntos, blocos e unidades, e produz `src/data/seed.json`. Regenere quando
+real de serviços, conjuntos, blocos e unidades, e produz `public/seed.json` (servido como asset estático). Regenere quando
 quiser sincronizar a estrutura com novas planilhas.

@@ -1,6 +1,6 @@
 import openpyxl, json, random, datetime, os, re
 random.seed(42)
-OUT='/sessions/focused-sweet-clarke/mnt/outputs/avanco-obras/src/data'
+OUT='/sessions/focused-sweet-clarke/mnt/outputs/avanco-obras/public'
 wb_m = openpyxl.load_workbook('Avanço Fisico - M01.xlsx', data_only=True, read_only=True)
 ws = wb_m['RESUMO DETALHADO']
 services=[]
